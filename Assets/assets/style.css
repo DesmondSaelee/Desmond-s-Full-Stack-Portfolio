@@ -41,5 +41,11 @@ header {
   body section {
     width: 100%;
     height: 175px;
-    background-color: lightblue;
+    background-color: navy;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: flex-end;
+    color: lightblue;
   }
