@@ -26,8 +26,13 @@ header {
   }
   
   nav a {
-    color: #b9C6ae;
+    color: lightblue;
     font-weight: bold;
     text-decoration-line: underline;
     font-size: 20px;
+  }
+
+  h1 {
+    background-color: lightblue;
+    padding-left: 4%;
   }
