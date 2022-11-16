@@ -68,21 +68,29 @@ header {
   aside {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
   }
 
   p {
     font-size: 16px;
   }
+  
 
   .contact-info ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
   }
+  
   .contact-info li {
-    font-size: 16px
+    color: black;
+    font-size: 16px;
+    text-decoration-line: underline;
+  }
 
+  main section {
+    border-left-style: solid;
   }
   
 
