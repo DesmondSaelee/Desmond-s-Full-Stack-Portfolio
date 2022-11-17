@@ -65,32 +65,29 @@ header {
     flex-direction: row;
   }
   
-  aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 25%;
-  }
-
-  p {
-    font-size: 16px;
-  }
-  
-
   .contact-info ul {
+    color: black;
+    text-decoration-line: underline;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
-  
+
   .contact-info li {
-    color: black;
     font-size: 16px;
-    text-decoration-line: underline;
   }
 
   main section {
     border-left-style: solid;
+  }
+  
+  .second-row img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .paragraph p {
+    font-size: 16px;
   }
   
 
