@@ -22,6 +22,7 @@ header {
     color: #fff;
     height: 65px;
   }
+
   
   nav ul {
     display: flex;
@@ -44,11 +45,13 @@ header {
   
   .second-row {
     width: 100%;
-    height: 60%;
+    min-height: 400px;
     background-color: blue;
     display: flex;
     justify-content: flex-end;
-    background-image: url("C:\Users\Brian\bootcamp\Desmond-s-Full-Stack-Portfolio\pickle and joey.jpg");
+    background-image: url("../../pickle\ and\ joey.jpg");
+    background-size: cover;
+    align-items: flex-end;
   }
 
   h2 {
@@ -70,11 +73,6 @@ header {
     width: 100%;
   }
   
-  .contact-info {
-    display: flex;
-    justify-content: flex-start;
-
-  }
   
   .contact-info ul {
     color: black;
@@ -85,7 +83,7 @@ header {
     background-color: lightblue;
     height: 100%;
     width: 100%;
-    align-items: flex-end;
+    align-items: center;
   }
 
   .contact-info li {
@@ -120,13 +118,49 @@ header {
     border-left: solid 5px black;
     margin-top: 10px;
     padding: 10px;
+    width: 100%;
     
   }
   
   .contact-info {
     width: 100%;
     border-left: solid 5px black;
-    margin-top: 10px;
+  }
+
+  #Surf-Report {
+   max-width: 70%;
+    height: 30vh;
+    background-image:url("https://www.fillmurray.com/640/360");
+    background-color: blue;  
+    background-size: cover; 
+    display: flex;
+    align-items: flex-end;
+  }
+
+  #Led-Wall {
+    max-width: 40%;
+    height: 25vh;
+    background-image:url("https://loremflickr.com/640/360");
+    border: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  #Led-Wall p {
+    background-color: lightblue;
+    max-height: 50px;
+  }
+  
+  #Surf-Report p {
+    background-color: lightblue;
+    padding: 10px;
+  }
+
+
+
+  @media screen and (max-width: 400px) {
+    
   }
 
 
