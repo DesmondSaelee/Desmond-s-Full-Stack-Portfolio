@@ -48,10 +48,16 @@ header {
     min-height: 400px;
     background-color: blue;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-image: url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
     background-size: cover;
     align-items: flex-end;
+  }
+
+  #BrighterTomorrow{
+    display: flex;
+    justify-content: flex-end;
+    
   }
 
   h2 {
@@ -88,7 +94,8 @@ header {
  
   
   .second-row img {
-    height: 20%;
+   
+    height: 30%;
     width: 20%;
   }
 
