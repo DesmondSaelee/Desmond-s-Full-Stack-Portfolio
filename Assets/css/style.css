@@ -101,6 +101,7 @@ header {
 
   .paragraph p {
     font-size: 16px;
+    
   }
 
   .container {
@@ -126,17 +127,16 @@ header {
     border-left: solid 5px black;
   }
 
-  #Surf-Report {
+  #html-refactoring {
    max-width: 70%;
     height: 30vh;
-    background-image:url("https://www.fillmurray.com/640/360");
-    background-color: blue;  
+    background-image:url("../images/Html-refactoring-picture.png"); 
     background-size: cover; 
     display: flex;
     align-items: flex-end;
   }
 
-  #Led-Wall {
+  .applications {
     max-width: 40%;
     height: 25vh;
     background-image:url("https://loremflickr.com/640/360");
@@ -146,7 +146,7 @@ header {
     align-items: flex-end;
   }
 
-  #Led-Wall p {
+  .applications p {
     background-color: lightblue;
     max-height: 50px;
   }
@@ -154,6 +154,23 @@ header {
   #Surf-Report p {
     background-color: lightblue;
     padding: 10px;
+  }
+
+  #Password-Generator {
+    background-image:url("../images/password-generator-picture.png");
+  }
+  #work-calendar {
+    background-image:url("../images/work-calendar-picture.png");
+  }
+  #weather-and-music {
+    background-image:url("../images/weather-and-music-picture.png");
+  }
+  #Note-Taker {
+    background-image:url("../images/note-taker-picture.png");
+  }
+  
+  #refactor-link {
+    background-color: lightblue;
   }
 
  
