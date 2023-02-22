@@ -1,3 +1,5 @@
+/* all selector */
+
 *{
     color: navy;
     font-size: 32px;
@@ -42,7 +44,7 @@ header {
     background-color: lightblue;
     padding-left: 4%;
   }
-  
+  /* display flex. image link as background */
   .second-row {
     width: 100%;
     min-height: 400px;
@@ -74,7 +76,7 @@ header {
 
 
   
-  
+  /* code for my contact info list at bottom of application */
   .contact-info ul {
     color: black;
     text-decoration-line: underline;
@@ -135,11 +137,11 @@ header {
     display: flex;
     align-items: flex-end;
   }
-
+/* applications class for my application links. all have same background and flex css. */
   .applications {
     max-width: 40%;
     height: 25vh;
-    background-image:url("https://loremflickr.com/640/360");
+    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
     border: black;
     margin-top: 20px;
     display: flex;
@@ -151,22 +153,19 @@ header {
     max-height: 50px;
   }
   
-  #Surf-Report p {
-    background-color: lightblue;
-    padding: 10px;
-  }
 
+/* code not currently being used, but I am leaving it, so I can use individual images at a later time. */
   #Password-Generator {
-    background-image:url("../images/password-generator-picture.png");
+    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
   }
   #work-calendar {
-    background-image:url("../images/work-calendar-picture.png");
+    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
   }
   #weather-and-music {
-    background-image:url("../images/weather-and-music-picture.png");
+    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
   }
   #Note-Taker {
-    background-image:url("../images/note-taker-picture.png");
+    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
   }
   
   #refactor-link {
@@ -177,10 +176,36 @@ header {
  
 
 
-  @media screen and (max-width: 400px) {
-    
+  /* media query. setting different rules for different size screens. */
+@media screen and (max-width: 992px) {
+  .applications {
+    max-width: 70%;
+    height: 10vh;
   }
   
+
+  /* Change the header color */
+  header {
+    background: #772014;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+.query a {
+  font-size: 10px;
+}
+
+#refactor-link a {
+  font-size: 10px;
+}
+
+.contact-info li {
+  font-size: 8px;
+  
+}
+}
+
 
 
 
