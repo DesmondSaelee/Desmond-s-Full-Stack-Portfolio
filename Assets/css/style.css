@@ -144,10 +144,14 @@ header {
     font-size: small;
   }
 
+  #refactor-link {
+    background-color: lightblue;
+  }
+
   #html-refactoring {
    max-width: 70%;
-    height: 30vh;
-    background-image:url("../images/Html-refactoring-picture.png"); 
+    height: 50vh;
+    background-image:url("../images/ConstructDailyPicture.png"); 
     background-size: cover; 
     display: flex;
     align-items: flex-end;
@@ -156,7 +160,7 @@ header {
   .applications {
     max-width: 40%;
     height: 25vh;
-    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
+    /* background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg"); */
     border: black;
     margin-top: 20px;
     display: flex;
@@ -171,22 +175,28 @@ header {
 
 
 /* code not currently being used, but I am leaving it, so I can use individual images at a later time. */
-  #Password-Generator {
-    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
+  * #Password-Generator {
+    background-image:url("../images/password-generator-picture.png");
+    background-size: cover;
   }
   #work-calendar {
-    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
+    background-image:url("../images/work-calendar-picture.png");
+    background-size: cover;
   }
   #weather-and-music {
-    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
+    background-image:url("../images/weather-and-music-picture.png");
+    background-size: cover;
   }
   #Note-Taker {
-    background-image:url("https://www.wallpaperbetter.com/wallpaper/159/604/884/usa-washington-mount-baker-volcano-lake-reflection-morning-sunrise-forest-1080P-wallpaper.jpg");
-  }
+    background-image:url("../images/note-taker-picture.png");
+    background-size: cover;
+  } 
   
-  #refactor-link {
+  .GitLink {
     background-color: lightblue;
+    max-width:fit-content
   }
+ 
 
 
 
